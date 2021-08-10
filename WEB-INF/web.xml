@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0"
+  metadata-complete="true">
+
+    <description>
+      Servlet and JSP Examples.
+    </description>
+    <display-name>Servlet and JSP Examples</display-name>
+
+    <request-character-encoding>UTF-8</request-character-encoding>
+
+     <servlet>
+        <servlet-name>GetSlamData</servlet-name>
+        <servlet-class>com.slam.book.servlets.GetSlamData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetSlamData</servlet-name>
+        <url-pattern>/getSlamData</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>GetSlamFriends</servlet-name>
+        <servlet-class>com.slam.book.servlets.GetSlamFriends</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetSlamFriends</servlet-name>
+        <url-pattern>/getSlamFriends</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>GetArrayOfFriends</servlet-name>
+        <servlet-class>com.slam.book.servlets.GetArrayOfFriends</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetArrayOfFriends</servlet-name>
+        <url-pattern>/getArrayOfFriends</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>UploadSlam</servlet-name>
+        <servlet-class>com.slam.book.servlets.UploadSlam</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadSlam</servlet-name>
+        <url-pattern>/uploadSlam</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>ProfileUpdater</servlet-name>
+        <servlet-class>com.slam.book.servlets.ProfileUpdater</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProfileUpdater</servlet-name>
+        <url-pattern>/updateProfile</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>Updater</servlet-name>
+        <servlet-class>com.slam.book.servlets.Updater</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Updater</servlet-name>
+        <url-pattern>/updater</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchMember</servlet-name>
+        <servlet-class>com.slam.book.servlets.SearchMember</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchMember</servlet-name>
+        <url-pattern>/searchMember</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>CancelFriendRequest</servlet-name>
+        <servlet-class>com.slam.book.servlets.CancelFriendRequest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CancelFriendRequest</servlet-name>
+        <url-pattern>/cancelFriendRequest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RejectFriendRequest</servlet-name>
+        <servlet-class>com.slam.book.servlets.RejectFriendRequest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RejectFriendRequest</servlet-name>
+        <url-pattern>/rejectFriendRequest</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AddFriendRequest</servlet-name>
+        <servlet-class>com.slam.book.servlets.AddFriendRequest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddFriendRequest</servlet-name>
+        <url-pattern>/addFriendRequest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AcceptFriendRequest</servlet-name>
+        <servlet-class>com.slam.book.servlets.AcceptFriendRequest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AcceptFriendRequest</servlet-name>
+        <url-pattern>/acceptFriendRequest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FriendRecommender</servlet-name>
+        <servlet-class>com.slam.book.servlets.FriendRecommender</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FriendRecommender</servlet-name>
+        <url-pattern>/friendRecommender</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GetMembers</servlet-name>
+        <servlet-class>com.slam.book.servlets.GetMembers</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetMembers</servlet-name>
+        <url-pattern>/getMembers</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PasswordReseter</servlet-name>
+        <servlet-class>com.slam.book.servlets.PasswordReseter</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PasswordReseter</servlet-name>
+        <url-pattern>/passwordReseter</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.slam.book.servlets.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SkipProfileSetter</servlet-name>
+        <servlet-class>com.slam.book.servlets.SkipProfileSetter</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SkipProfileSetter</servlet-name>
+        <url-pattern>/skipProfileSetter</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Upload</servlet-name>
+        <servlet-class>com.slam.book.servlets.Upload</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Upload</servlet-name>
+        <url-pattern>/upload</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MemberCreater</servlet-name>
+        <servlet-class>com.slam.book.servlets.MemberCreater</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MemberCreater</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+<servlet>
+        <servlet-name>Authenticator</servlet-name>
+        <servlet-class>com.slam.book.servlets.Authenticator</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Authenticator</servlet-name>
+        <url-pattern>/authenticate</url-pattern>
+    </servlet-mapping>
+</web-app>

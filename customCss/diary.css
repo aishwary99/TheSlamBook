@@ -1,0 +1,136 @@
+.textJustify
+{
+    text-align: justify;
+}
+#friendShowCase
+{
+    margin-top:22px;
+}
+.formContainer
+{
+    border: 1px solid dashed;
+}
+.formRow
+{
+    border:2px solid yellow;
+}
+#friendDetails
+{
+    margin-top:42px;
+}
+#likeUnlike
+{
+    margin-top:42px;
+}
+#personality
+{
+    margin-top:42px;
+}
+#nameAndRelation
+{
+    margin-top:42px;
+}
+#songDivison
+{
+    margin-top:42px;
+}
+#jailDivison
+{
+    margin-top:42px;
+}
+#thinking
+{
+    margin-top:42px;
+}
+#bestMoment
+{
+    margin-top:42px;
+}
+#favourites
+{
+    margin-top:42px;
+}
+#dreamAndConfession
+{
+    margin-top:42px;
+}
+#customQuestion
+{
+    margin-top:42px;
+}
+#momentsPic
+{
+    margin-top:42px;
+    -webkit-box-shadow: 10px 10px 14px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 14px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 14px -7px rgba(0,0,0,0.75);
+}
+#next
+{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px)
+{
+    #friendDetails
+    {
+        display:block;
+    }
+    #personality
+    {
+        display: block;
+    }
+    #nameAndRelation
+    {
+        display: block;
+    }
+    #songQ
+    {
+        display: block;
+    }
+    #jailQ
+    {
+        display: block;
+    }
+    #likeUnlike
+    {
+        display: block;
+    }
+    #thinking
+    {
+        display: block;
+    }
+    #bestMoment
+    {
+        display: block;
+    }
+    #favourites
+    {
+        display: block;
+    }
+    #dreamAndConfession
+    {
+        display: block;
+    }
+    #customQuestion
+    {
+        display: block;
+    }
+    #momentsPic
+    {
+        display: block;
+        width:100%;
+        -webkit-box-shadow: 10px 10px 14px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 14px -7px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 14px -7px rgba(0,0,0,0.75);
+    }
+}
+.flex
+{
+    display:flex;
+}
+.hide
+{
+    display:none;
+}
